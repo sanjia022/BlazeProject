@@ -16,7 +16,9 @@ public class LoginTest extends BaseClass {
 		s1.enterusername();
 		s1.enterPassword();
 		s1.clickonLoginButton();
+		Assert.assertEquals(driver.getTitle(), "STORE");
 		
+		Assert.assertEquals(driver.getTitle(), "STORE");
 		
 		Assert.assertEquals(driver.getTitle(), "STORE");
 		
